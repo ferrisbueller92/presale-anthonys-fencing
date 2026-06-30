@@ -1,0 +1,53 @@
+/* Anthony's Fencing — design tokens. Bold, honest, dependable family-trade energy.
+   Grounded: father & son (Anthony & Nick), Colorbond + timber + steel + feature walls,
+   Bexley / St George, 4.9★, same-day callouts, honest quotes — no logo, no website.
+   DELIBERATELY distinct from the two prior fencing builds:
+     · Affordable Fencing = earthy / warm
+     · Underwood Gates    = premium architectural graphite + aluminium + eucalypt, masonry gallery
+   Anthony's = strong steel-blue + warm safety-amber + concrete on warm paper, Archivo display,
+   bold service rows + a "father & son" stamp + a picket divider motif. */
+:root{
+  /* palette — confident steel + warm trade-amber */
+  --paper:     #F6F3EC;   /* warm off-white ground */
+  --paper-2:   #FFFFFF;
+  --galv:      #E7E3DA;   /* galvanised pale surface */
+  --steel:     #1E4258;   /* deep steel-blue — signature / dark bands */
+  --steel-deep:#142E3D;
+  --steel-ink: #0E2230;
+  --steel-mid: #3D6378;   /* mid steel */
+  --amber:     #E5882B;   /* warm safety-amber — CTA / accent */
+  --amber-deep:#C8701A;
+  --concrete:  #8B9298;   /* galvanised grey */
+  --ink:       #1A2228;   /* near-black steel text */
+  --ink-soft:  #5C6670;
+  --line:      rgba(26,34,40,.16);
+  --line-soft: rgba(26,34,40,.08);
+  --line-light:rgba(246,243,236,.18);
+
+  /* type */
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;  /* strong, expanded, industrial-confident */
+  --f-body:   "Inter","Helvetica Neue",Arial,sans-serif;     /* neutral, clean, readable */
+  --t-hero: clamp(2.9rem, 7.2vw, 6rem);
+  --t-h2:   clamp(2rem, 4.4vw, 3.5rem);
+  --t-h3:   clamp(1.2rem, 1.85vw, 1.55rem);
+  --t-mega: clamp(3rem, 11vw, 9rem);
+  --t-body: 1.06rem;
+  --t-kicker:.74rem;
+
+  /* spacing */
+  --s-2:.5rem; --s-3:.85rem; --s-4:1.4rem; --s-5:2.2rem; --s-6:3.4rem; --s-7:clamp(4rem,9vw,7.5rem);
+  --maxw:1180px;
+
+  /* radii — squarer, sturdier than the cafes (a trade, not a cafe) */
+  --r-sm:6px; --r-md:10px; --r-lg:16px; --r-pill:999px;
+
+  /* shadows */
+  --shadow-soft: 0 24px 56px -28px rgba(14,34,48,.46);
+  --shadow-card: 0 14px 32px -18px rgba(14,34,48,.32);
+  --shadow-pop:  0 10px 22px -12px rgba(200,112,26,.5);
+
+  /* motion */
+  --dur:.5s;
+  --ease: cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.16,1,.3,1);
+}
